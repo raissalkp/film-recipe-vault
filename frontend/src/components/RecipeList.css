@@ -1,0 +1,35 @@
+.search {
+  width: 100%; padding: 12px 16px; background: #1a1a1a;
+  border: 1px solid #2a2a2a; border-radius: 10px; color: #e8e8e8;
+  font-size: 15px; margin-bottom: 1.5rem; outline: none;
+}
+.search:focus { border-color: #444; }
+
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1rem; }
+
+.card {
+  background: #1a1a1a; border: 1px solid #222; border-radius: 12px;
+  overflow: hidden; transition: border-color 0.15s;
+}
+.card:hover { border-color: #444; }
+
+.card-accent { height: 4px; }
+
+.card-body { padding: 1rem; display: flex; flex-direction: column; gap: 8px; }
+
+.card-title { font-size: 16px; font-weight: 500; }
+
+.sim-badge {
+  display: inline-block; font-size: 12px; color: #888;
+  background: #222; padding: 3px 8px; border-radius: 4px; width: fit-content;
+}
+
+.tags { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 4px; }
+
+.tag {
+  font-size: 11px; padding: 2px 8px; border-radius: 20px;
+  background: #222; color: #666; border: 1px solid #2a2a2a;
+}
+
+.hint { color: #555; font-size: 14px; }
+.hint a { color: #888; text-decoration: underline; }

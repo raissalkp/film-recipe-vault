@@ -1,0 +1,18 @@
+.app {min-height: 100vh; display: flex; flex-direction: column;}
+
+.header {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 1rem 2rem; border-bottom: 1px solid #222;
+  position: sticky; top: 0; background: #0f0f0f; z-index: 10;
+}
+
+.logo {font-size: 1.2rem; font-weight: 600; letter-spacing: -0.02em;}
+
+.add-btn {
+  padding: 8px 16px; background: #e8e8e8; color: #0f0f0f;
+  border-radius: 8px; font-size: 14px; font-weight: 500; border: none;
+}
+
+.add-btn:hover { background: #fff; }
+
+.main { flex: 1; padding: 2rem; max-width: 900px; margin: 0 auto; width: 100%;}

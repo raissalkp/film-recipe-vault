@@ -1,0 +1,14 @@
+.detail { max-width: 560px; }
+.back { background: none; border: none; color: #666; font-size: 14px; margin-bottom: 1.5rem; padding: 0; }
+.back:hover { color: #e8e8e8; }
+.detail-title { font-size: 1.8rem; font-weight: 600; margin-bottom: 0.5rem; }
+.notes { color: #888; font-size: 14px; margin-bottom: 1.5rem; line-height: 1.6; }
+.settings { background: #1a1a1a; border: 1px solid #222; border-radius: 12px; overflow: hidden; margin-bottom: 1rem; }
+.setting-row { display: flex; justify-content: space-between; padding: 12px 16px; border-bottom: 1px solid #222; }
+.setting-row:last-child { border-bottom: none; }
+.setting-label { color: #666; font-size: 14px; }
+.setting-value { font-size: 14px; font-weight: 500; }
+.tags { display: flex; flex-wrap: wrap; gap: 5px; margin-bottom: 2rem; }
+.tag { font-size: 12px; padding: 3px 10px; border-radius: 20px; background: #222; color: #666; border: 1px solid #2a2a2a; }
+.delete-btn { background: none; border: 1px solid #3a1a1a; color: #c0392b; padding: 8px 16px; border-radius: 8px; font-size: 14px; }
+.delete-btn:hover { background: #1a0a0a; }
