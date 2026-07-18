@@ -12,3 +12,9 @@
 .tag { font-size: 12px; padding: 3px 10px; border-radius: 20px; background: #222; color: #666; border: 1px solid #2a2a2a; }
 .delete-btn { background: none; border: 1px solid #3a1a1a; color: #c0392b; padding: 8px 16px; border-radius: 8px; font-size: 14px; }
 .delete-btn:hover { background: #1a0a0a; }
+.edit-btn {
+    background: none; border: 1px solid #2a2a2a; color: #e8e8e8;
+    padding: 8px 16px; border-radius: 8px; font-size: 14px; margin-bottom: 8px;
+    display: block;
+}
+.edit-btn:hover { background: #1a1a1a;}

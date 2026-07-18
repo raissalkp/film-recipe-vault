@@ -2,6 +2,7 @@ import {Routes, Route, Link } from 'react-router-dom'
 import RecipeList from './components/RecipeList'
 import RecipeDetail from './components/RecipeDetail'
 import RecipeForm from './components/RecipeForm'
+import RecipeEdit from './components/RecipeEdit'
 import './App.css'
 
 export default function App(){
@@ -15,6 +16,7 @@ export default function App(){
         <Routes>
           <Route path="/" element={<RecipeList />} />
           <Route path="/recipe/:id" element={<RecipeDetail />} />
+          <Route path="/recipe/:id/edit" element={<RecipeEdit />} />
           <Route path="/add" element={<RecipeForm />} />
         </Routes>
       </main>

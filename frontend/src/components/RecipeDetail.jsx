@@ -54,6 +54,7 @@ export default function RecipeDetail() {
           <span key={tag} className="tag">{tag.trim()}</span>
         ))}
       </div>
+      <button className="edit-btn" onClick={() => navigate(`/recipe/${id}/edit`)}>Edit recipe</button>
       <button className="delete-btn" onClick={handleDelete}>Delete recipe</button>
     </div>
   )
